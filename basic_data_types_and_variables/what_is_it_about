@@ -1,0 +1,11 @@
+Booleans: true / false values using bool
+
+Numbers: Unsigned (u8, u16, etc.) and signed (i32) integers, plus decimals (f32, f64)
+
+Characters & Strings: Single characters with char, strings with &str and String
+
+Arrays & Slices: Collections with fixed size, and partial views using slices ([start..end])
+
+Tuples: Combine multiple types in one structured variable (("name", 25))
+
+Mutability: All variables are immutable unless marked with mut
