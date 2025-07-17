@@ -1,16 +1,16 @@
 fn main() 
 {
     // Creating variables with different data types
-    let message = "hello, world";
-    let x: i32 = 42;  // 32-bit integer
-    let pi: f64 = 3.14; // 64-bit float
-    let is_rust_fun: bool = true;  // boolean
-    let letter_a: char = 'a';  // character
+    let _message = "hello, world";
+    let _x: i32 = 42;  // 32-bit integer
+    let _pi: f64 = 3.14; // 64-bit float
+    let _is_rust_fun: bool = true;  // boolean
+    let _letter_a: char = 'a';  // character
 
     //--------------------------------------------------
     
     // Creating a function
-    fn add(x: i32, y: i32) -> i32  // '->' sign means "return" 
+    fn _add(x: i32, y: i32) -> i32  // '->' sign means "return" 
     {
         x + y  // instead of this we can use "return x + y;"
     }
