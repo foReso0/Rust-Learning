@@ -1,0 +1,15 @@
+---Variable Declaration---
+Declares values with types: i32, f64, bool, char, and string slices (&str)
+Highlights type safety and explicit type annotations
+
+---Function Definition---
+Creates a simple add function returning the sum of two i32 values
+Uses Rust’s concise expression-based syntax (x + y)
+
+---Conditional Logic---
+Uses if-else to check if a number is positive or negative
+Demonstrates branching for decision making
+
+---Loops---
+Implements a while loop to print values from 0 to 4
+Shows mutability with mut keyword and incrementing with +=
