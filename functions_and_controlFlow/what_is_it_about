@@ -1,0 +1,25 @@
+1- Function Calls and Returns: Demonstrates how to declare and invoke functions (adding, no_parameters, no_parameters2), 
+pass arguments, and handle return values.
+
+2 - Simple Arithmetic: adding function shows basic integer addition and use of return to send back results.
+
+3 - Void Functions: no_parameters illustrates a function with no parameters and no return value, used solely for side-effect (println!).
+
+4 - Parameterized Functions with Return: no_parameters2 returns a constant integer, showcasing implicit return without the return keyword.
+
+5 - Conditional Branching (if / else if / else): Checks a string value (regular_day) against multiple cases to control execution flow.
+
+6 - while Loop: Uses a mutable counter to repeat a block until a condition (mutable_number < 5) is no longer met, with incremental updates.
+
+7 - for Loop Over Collections and Ranges:
+- Iterates through a fixed-size array ([1, 2, 3, 4, 5]).
+- Uses an inclusive range (1..=5) for the same effect.
+
+8 - Infinite loop with break: Creates an endless loop and exits when a condition (counter == 3) is true, illustrating manual loop control.
+
+9 - Pattern Matching with match:
+- Executes different actions (println!) based on the value of an integer.
+- Assigns values to a variable (result) based on matched patterns, showcasing match as an expression.
+
+10 - Combination of Statements and Expressions: Highlights Rust’s ability to use control structures and functions both for side-effects
+and for producing values in a concise, type-safe manner.
