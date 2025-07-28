@@ -1,0 +1,32 @@
+1) Introduction to Ownership
+- The code illustrates the core principle of ownership, which is Rust's mechanism for memory safety without needing a garbage collector.
+
+2) Creating a String and Transferring Ownership
+let my_string1 = String::from("iyte");
+let my_string2 = my_string1;
+-A heap-allocated String is created and bound to my_string1.
+-Ownership of the string is moved from my_string1 to my_string2.
+-After the move, my_string1 becomes invalid. Trying to use it results in a compile-time error.
+
+3) Compile-Time Safety Check
+// println!("my string is: {}", my_string1); // This will cause a compile-time error
+- Rust prevents use-after-move by enforcing strict ownership rules during compilation.
+
+4) Accessing Valid Owner
+println!("my string1 is: {}", my_string2);
+- my_string2 now owns the data and can be safely used.
+
+5) Ownership Transfer Again
+let my_string3 = String::from("ehm");
+let temp = my_string3;
+- The String "ehm" is created and then moved to temp.
+- my_string3 becomes invalid after the move.
+
+6) Stack Data and Ownership
+let num = 5;
+- num is a primitive (stack-allocated) type and is copied, not moved.
+- This is allowed because integers implement the Copy trait.
+
+7) Final Output Statement
+println!("value of num is: {} and value of temp is: {}", num, temp);
+- Safe to use both num and temp, as num was copied and temp is the valid owner of the string.
