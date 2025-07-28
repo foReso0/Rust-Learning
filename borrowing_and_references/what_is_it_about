@@ -1,0 +1,15 @@
+1) Immutable Reference: Demonstrates how to create and use an immutable reference with &string1. It is used for reading only.
+
+2) Passing to Function: Shows how an immutable reference can be passed to a function for read-only purposes.
+
+3) Mutable Reference: Uses a mutable reference (&mut string2) to modify a string inside a function.
+
+4) Multiple Immutable References: Illustrates that multiple immutable references can coexist safely.
+
+5) Dangling Reference (Simulated): Attempts to return a reference that might outlive its scope (though Rust prevents real dangling references at compile time).
+
+Now, here is a quick reference guide for borrowing rules:
+- You can have either one mutable reference or any number of immutable references to a variable at a time.
+- You cannot have both a mutable and an immutable reference to the same variable at the same time.
+- References must always be valid and point to a valid memory location.
+- References automatically expire at the end of their scope.
