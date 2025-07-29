@@ -1,0 +1,11 @@
+1) String Cloning: The original string is cloned using .clone() to create a deep copy.
+
+2) Ownership Preservation: Cloning allows both the original and the cloned strings to be used independently without transferring ownership.
+
+3) Passing by Reference: The cloned string is passed to a function using an immutable reference (&String), which avoids transferring ownership.
+
+4) Function-Level Cloning: Inside the function, the referenced string is cloned again to create a local, mutable copy that can be modified.
+
+5) String Modification: The cloned string is modified by appending " modified" using .push_str().
+
+6) Return Value: The function returns the modified string, which is then printed in the main function.
